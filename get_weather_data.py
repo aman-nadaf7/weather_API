@@ -1,6 +1,6 @@
 import requests
 
-cities =['Pune','Solapur','Patna']
+cities =['Pune','Delhi','Patna']
 
 API_KEY ="a1f5c4d341081aa8dbb75b3b5fd14fde"
 
@@ -15,3 +15,4 @@ for city_name in cities:
     else:
         print("❌ No, something went wrong")
         print(response.status_code, response.text)  # show error details
+
